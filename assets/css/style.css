@@ -189,10 +189,11 @@ body {
     font-size: 1.2rem; 
     font-weight: 300;
     max-width: 950px;
-    margin: 0 auto 15px auto; /* 15px abajo para igualar a los discursos */
+    margin: 0 auto 15px auto;
     line-height: 1.8;
     color: #222222; 
-    text-indent: 40px;        /* Sangría en el primer renglón */
+    text-align: justify !important; /* Asegura la alineación justificada */
+    text-indent: 40px !important;    /* Forzamos que aplique la sangría */
 }
 
 /* ==========================================================================
