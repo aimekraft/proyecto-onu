@@ -665,7 +665,8 @@ body {
     font-size: 1.1rem;
     font-weight: 300;
     line-height: 1.8;
-    text-align: justify;
+    text-align: justify !important;
+    text-indent: 40px !important; /* Aquí agregamos la sangría idéntica a INICIO */
     color: #222222;
     margin-bottom: 15px;
 }
